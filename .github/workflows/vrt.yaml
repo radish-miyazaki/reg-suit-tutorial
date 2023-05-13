@@ -27,6 +27,6 @@ jobs:
       - name: Build Storybook
         run: npm run storybook:build
       - name: Run Storycap
-        run: npm run vrt:shanpshot
+        run: npm run vrt:snapshot
       - name: Run reg-suit
         run: npm run vrt:run
